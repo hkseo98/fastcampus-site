@@ -2,12 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import React from "react";
-import Banner from "../components/Banner";
-import Menu from "../components/Menu";
-import LectureGroup from "@/components/lecture/LectureGroup";
 
-const Home: NextPage = () => {
+const Detail: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,9 +12,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Menu />
-      <Banner />
-      <LectureGroup></LectureGroup>
+      <nav aria-label="fastcampus">detail</nav>
+
+      <div role="banner">
+        <h1>배너</h1>
+      </div>
+
+      <div title="lectureList">
+        <h1>강의 목록</h1>
+      </div>
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -35,4 +38,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Detail;
