@@ -16,7 +16,8 @@
     "docker": "0.2.14",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-use-scrollspy": "3.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.14.1",
