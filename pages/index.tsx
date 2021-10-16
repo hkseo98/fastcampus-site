@@ -10,6 +10,9 @@ const Home = () => {
       <Link href="/scrollTop">
         <a className="menu">scrollTop</a>
       </Link>
+      <Link href="/stopwatch">
+        <a className="menu">stopwatch</a>
+      </Link>
     </div>
   );
 };
