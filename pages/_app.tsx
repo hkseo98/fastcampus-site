@@ -4,6 +4,8 @@ import "../styles/home.css";
 import type { AppProps } from "next/app";
 import { QueryClient, QueryClientProvider } from "react-query";
 
+import wrapper from "../store/configureStore";
+
 const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -14,4 +16,5 @@ function MyApp({ Component, pageProps }: AppProps) {
     </QueryClientProvider>
   );
 }
-export default MyApp;
+
+export default wrapper.withRedux(MyApp);

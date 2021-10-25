@@ -16,6 +16,9 @@ const Home = () => {
       <Link href="/analogClock">
         <a className="menu">stopwatch</a>
       </Link>
+      <Link href="/testRedux">
+        <a className="menu">testRedux</a>
+      </Link>
     </div>
   );
 };

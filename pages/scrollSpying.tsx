@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import React from "react";
 import react, { useRef } from "react";
 import useScrollSpy from "react-use-scrollspy";
